@@ -1,0 +1,901 @@
+[17:27:46:533(5c81)] **************************************  02/09/2024  **************************************
+[17:27:46:566(5c81)] Logger.Initialise
+[17:27:46:567(5c81)] Skin: /Applications/GameMaker.app/Contents/MacOS/x86_64/GUI/Skins/Dark
+[17:27:46:567(5c81)] GameMaker, Version=2023.11.1.129, Culture=neutral, PublicKeyToken=null
+[17:27:46:567(5c81)] Initialise()
+[17:27:46:568(5c81)] Command line arguments:
+[17:27:46:568(5c81)] ProcessId:6011
+[17:27:46:570(5c81)] SteamAPI Init returned : False
+[17:27:46:588(5c81)] Loading proxy settings
+[17:27:47:981(5c81)] Discovered system fonts via kernel in 463ms
+[17:27:47:991(5c81)] Initialise(0.0)
+[17:27:48:145(5c81)] Warning loading hotkeys from file ./default_hotkeys.json - the following hotkeys had multiple entries:
+[17:27:48:145(5c81)] 	- 'Select Rotate Tool'
+[17:27:48:146(5c81)] 	Duplicate entries will not be loaded
+[17:27:48:455(5c81)] File exception 'Could not find a part of the path '/Applications/GameMaker.app/Contents/MacOS/x86_64/user_cache_directory/Styles'.'
+[17:27:48:506(5c81)] Failed to load layout 'OperaGXDeviceEditor' from file '/Applications/GameMaker.app/Contents/MacOS/x86_64/GUI/Skins/Dark/Layouts/build_platform_device_editor.xml' as it has a duplicate name
+[17:27:48:513(5c81)] Failed to load layout 'ObjectEditorEvents' from file '/Applications/GameMaker.app/Contents/MacOS/x86_64/GUI/Skins/Dark/Layouts/object_editor_layouts.xml' as it has a duplicate name
+[17:27:48:625(5c81)] Layout Manager: Attempting to register 'YoYoStudio.GUI.Gadgets.Inspector.MultiSelectListBox+ItemGadget' from assembly 'IDE'. The gadget name 'ItemGadget' is already in use, this may be caused by conflicting plugins
+[17:27:48:633(5c81)] Initialise(0.1)
+[17:27:48:755(5c81)] Initialise(0.2)
+[17:27:48:758(5c81)] Initialise(1)
+[17:27:48:791(5c81)] Initialise(1.1)
+[17:27:48:791(5c81)] Initialise(2)
+[17:27:49:86(5c81)] Font that isn't scalable is invalid: /System/Library/Fonts/Apple Color Emoji.ttc
+[17:27:49:222(5c81)] Font that isn't scalable is invalid: /System/Library/Fonts/Supplemental/NISC18030.ttf
+[17:27:49:461(5c81)] Discovered system fonts via filesystem in 663ms
+[17:27:49:554(5c81)] Discovered 656 fonts in 86ms.
+[17:27:49:555(5c81)] Using 0.014734268mb in font ram cache
+[17:27:49:568(5c81)] Initialise(3)
+[17:27:49:570(5c81)] Initialise(4)
+[17:27:49:701(5c81)] FNA-Info: FNA3D Driver: OpenGL
+[17:27:49:701(5c81)] FNA-Info: OpenGL Renderer: Intel(R) Iris(TM) Plus Graphics 645
+[17:27:49:701(5c81)] FNA-Info: OpenGL Driver: 2.1 INTEL-22.1.29
+[17:27:49:702(5c81)] FNA-Info: OpenGL Vendor: Intel Inc.
+[17:27:49:704(5c81)] FNA-Info: MojoShader Profile: glsl120
+[17:27:49:715(5c81)] Initialise(4.1)
+[17:27:49:715(5c81)] Initialise(4.2)
+[17:27:49:715(5c81)] Initialise(4.3)
+[17:27:49:802(5c81)] Initialise(4.4.1)
+[17:27:49:809(5c81)] Initialise(4.4.2)
+[17:27:49:835(5c81)] Initialise(4.5)
+[17:27:49:836(5c81)] Check (1)
+[17:27:49:839(5c81)] Check (2)
+[17:27:50:240(5c81)] Initialise(4.6)
+[17:27:50:312(5c81)] Initialise(4.7)
+[17:27:50:316(5c81)] Initialise(4.8)
+[17:27:50:318(5c81)] Initialise(4.9)
+[17:27:50:324(5c81)] Initialise(4.10)
+[17:27:50:351(5c81)] Initialise(4.11)
+[17:27:50:358(5c81)] Initialise(4.12)
+[17:27:50:403(5c81)] Initialise(5)
+[17:27:50:404(5c81)] Initialise(6)
+[17:27:50:404(5c81)] Initialise(7)
+[17:27:50:405(5c81)] Initialise(7.1)
+[17:27:50:405(5c81)] Initialise(8)
+[17:27:50:405(5c81)] Initialise(9)
+[17:27:50:405(5c81)] Initialise(10)
+[17:27:50:734(5c81)] LoadingState: AwaitNetworkConnectivityCheck
+[17:27:50:736(5c81)] Initialise(11)
+[17:27:50:743(5c81)] Initialise(11.5)
+[17:27:50:743(5c81)] Initialise(12)
+[17:27:50:830(5c81)] Audio Device Connected: MacBook Pro Speakers
+[17:27:50:943(5c81)] Checking network....
+[17:27:51:329(5c81)] LoadingState: StartUp
+[17:27:51:355(5c81)] LoadingState: Languages
+[17:27:51:735(5c81)] Startup Language:
+[17:27:51:736(5c81)] LoadingState: BeginUserLogin
+[17:27:51:768(5c81)] LoadingState: UserLogin
+[17:27:52:62(5c81)] Current assembly revision is 2023.11.1.129
+[17:27:52:77(5c81)] Update found - got 13 items
+[17:27:52:77(5c81)] Latest revision 2023.11.1.129 found
+[17:27:52:78(5c81)] We do NOT need to update
+[17:27:52:364(5c81)] LoadingState: Preferences
+[17:27:52:430(5c81)] Creating temp directory /tmp/GameMakerStudio2/GMS2TEMP
+[17:27:52:450(5c81)] LoadingState: CheckingRSS
+[17:27:52:823(5c81)] LoadingState: DownloadManualRSS
+[17:27:52:850(5c81)] Download File /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/df4eca1eupdate-manual.rss to https://gms.yoyogames.com/update-manual.rss
+[17:27:52:854(5c81)] LoadingState: InitDnD
+[17:27:52:872(5c81)] DnD: Installing gadgets from IDE
+[17:27:52:959(5c81)] Discarding document 6e0eddf9-9d1f-4126-aa30-ee5a9cd65a91.gml
+[17:27:52:963(5c81)] DnD: Gadget name conflict on YoYo Games.DnD_CodeInput, change gadget name.
+[17:27:52:964(5c81)] DnD: Gadget name conflict on YoYo Games.DnD_CodeInput, change gadget name.
+[17:27:53:118(5c81)] LoadingState: PluginGUIResources
+[17:27:53:176(5c81)] LoadingState: Plugins
+[17:27:53:656(5c81)] LoadingState: Devices
+[17:27:53:726(5c81)] Splash screen: loading devices...
+[17:27:53:726(5c81)] ...initialising device manager
+[17:27:53:728(5c81)] Device Manager Load Failed: file not found
+[17:27:53:728(5c81)] ...moving to welcome page end
+[17:27:53:728(5c81)] LoadingState: CheckLaunchProject
+[17:27:53:728(5c81)] ...done!
+[17:27:53:754(5c81)] LoadingState: VerifySkinning
+[17:27:53:792(5c81)] LoadingState: End
+[17:27:53:823(5c81)] Adding fnames: /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/operagx/fnames
+[17:27:55:406(5c81)] MQTT - Started server: mqtts://unknownUser:756E6B6E6F776E55736572@10.0.1.128:9001?thumbprint=B9E447E45F5A00908F98E5F0AE27126E524B6171&thumprint256=3B8EB0C755FED5909F761E21535A28232AFDD1EA580AC7AA5E5611646AB066A7&topic=GameMaker
+[17:27:55:629(5c81)] envDumpName:
+[17:27:55:629(5c81)] CrashReporter:Dump directory: /Users/Shared/GameMakerStudio2/Dumps
+[17:27:55:630(5c81)] ####################################
+[17:27:55:630(5c81)] Break in WriteBinary (FileSystem_Local_NonAsync:618)
+[17:27:55:630(5c81)] Reason: Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/dump_pid.new'. ( /Users/Shared/GameMakerStudio2/Dumps/dump_pid )
+[17:27:55:630(5c81)] ####################################
+[17:27:55:630(5c81)] ####################################
+[17:27:55:630(5c81)] File exception 'Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/dump_pid.new'.'
+[17:27:55:630(5c81)] Break in WriteBinary (FileSystem_Local_NonAsync:618)
+[17:27:55:631(5c81)] Reason: Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/timestamp.new'. ( /Users/Shared/GameMakerStudio2/Dumps/timestamp )
+[17:27:55:631(5c81)] ####################################
+[17:27:55:631(5c81)] File exception 'Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/timestamp.new'.'
+[17:27:55:631(5c81)] File exception 'Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps'.'
+[17:27:55:634(5c81)] MQTT - Subscribed to GameMaker/event/# with GameMaker/event
+[17:27:55:634(5c81)] MQTT - Subscribed to GameMaker/goodbye with GameMaker/goodbye
+[17:27:55:634(5c81)] MQTT - Subscribed to GameMaker/hello with GameMaker/hello
+[17:27:55:634(5c81)] MQTT - Subscribed to GameMaker/GameMaker/logs with GameMaker/GameMaker/logs
+[17:27:55:634(5c81)] MQTT - Subscribed to GameMaker/all/startGame with GameMaker/all/startGame
+[17:27:55:689(5c81)] StartScreen Init: Display Size w:2880 h:1694 dpiScale:2.3645833
+[17:27:56:322(5c81)] MQTT - Received msg: GameMaker/event/start_ide/client_version = 2023.11.1.129
+[17:27:56:323(5c81)] MQTT - Received msg: GameMaker/event/start_ide/os_type = mac
+[17:27:56:323(5c81)] MQTT - Received msg: GameMaker/event/start_ide/num_cpu = 8
+[17:27:56:323(5c81)] MQTT - Received msg: GameMaker/event/start_ide/cpu_type = Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
+[17:27:56:323(5c81)] MQTT - Received msg: GameMaker/event/start_ide/language = en
+[17:27:56:323(5c81)] MQTT - Received msg: GameMaker/event/start_ide/country = US
+[17:27:56:323(5c81)] MQTT - Received msg: GameMaker/event/start_ide/culture = en-US
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/gfx_renderer = OpenGL, 2.1 INTEL-22.1.29, Intel Inc., Intel(R) Iris(TM) Plus Graphics 645
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/laptop = 1
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/laptop_mode = True
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/laptop_desktop_enable = False
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/seat_type = default
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/is_free = 1
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/is_internal = 0
+[17:27:56:324(5c81)] MQTT - Received msg: GameMaker/event/start_ide/platform_os_version = 14.2.1
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/beta_optin = False
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/splash = 2
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/telemetry = 119
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/telemetry2 = EAAAAObA2xS8d0OUTPjUH6lleOv5hs8T4girl0Bs4bJFn8aO
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/data1 = operagx,operagx.build_module,test
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/region = 244
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/ide_language = English / English
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/ide_font = Open Sans
+[17:27:56:325(5c81)] MQTT - Received msg: GameMaker/event/start_ide/manual_language = English / English
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/online_manual = False
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/ide_skin = Dark
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/is_steam = False
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/quick_access = True
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/feather_enabled = True
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/rtl_enabled = False
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/script_language = None
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/fullscreen_script = False
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/fullscreen_shader = False
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/fullscreen_event = False
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/gmpm = 
+[17:27:56:326(5c81)] MQTT - Received msg: GameMaker/event/start_ide/total_vm = 4
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/total_yyc = 0
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/total_debug = 0
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/session_time = 14
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_windows = 0
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_mac = 4
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_linux = 0
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_html5 = 0
+[17:27:56:327(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_android = 0
+[17:27:56:328(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_ios = 0
+[17:27:56:329(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_tvos = 0
+[17:27:56:330(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_ps4 = 0
+[17:27:56:330(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_ps5 = 0
+[17:27:56:332(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_xboxseriesxs = 0
+[17:27:56:333(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_switch = 0
+[17:27:56:334(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_operagx = 0
+[17:27:56:334(5c81)] MQTT - Received msg: GameMaker/event/start_ide/run_cronus = 0
+[17:27:56:334(5c81)] MQTT - Received msg: GameMaker/event/start_ide/editor_sprite_editor = 1
+[17:27:56:335(5c81)] MQTT - Received msg: GameMaker/event/start_ide/editor_image_editor = 1
+[17:27:56:336(5c81)] MQTT - Received msg: GameMaker/event/start_ide/editor_object_editor = 1
+[17:27:56:336(5c81)] MQTT - Received msg: GameMaker/event/start_ide/editor_script_editor = 1
+[17:27:56:351(5c81)] ProcessCrashDumps failed to find files
+[17:27:56:516(5c81)] ParticleEditor: registered 11 GMPresets
+[17:27:57:159(5c81)] Setting ProjectFullFilePathMacro to '/Users/sebastian/Desktop/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0.yyp'
+[17:27:57:159(5c81)] Setting ProjectDirMacro to '/Users/sebastian/Desktop/LegendOfSoma-Patch-1.0'
+[17:27:57:160(5c81)] Setting ProjectNameMacro to 'LegendOfSoma-Patch-1.0'
+[17:27:57:163(5c81)] Loading project layout from: /Users/sebastian/.config/GameMakerStudio2/unknownUser_unknownUserID/Layouts/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0.xml
+[17:28:00:856(5c81)] MQTT - Received msg: GameMaker/event/Run/platform = mac
+[17:28:00:981(5c81)] starting /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/bin/igor/osx/x64/Igor -j=8  -options="/tmp/GameMakerStudio2/GMS2TEMP/build.bff" -v -- Mac Run
+[17:28:27:726(5c81)] elapsed time 00:00:26.7447600s for command "/Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/bin/igor/osx/x64/Igor" -j=8  -options="/tmp/GameMakerStudio2/GMS2TEMP/build.bff" -v -- Mac Run started at 02/09/2024 17:28:00
+[17:28:28:945(5c81)] MQTT - Received msg: GameMaker/event/Run/platform = mac
+[17:28:28:992(5c81)] starting /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/bin/igor/osx/x64/Igor -j=8  -options="/tmp/GameMakerStudio2/GMS2TEMP/build.bff" -v -- Mac Run
+[17:33:58:538(5c81)] elapsed time 00:05:29.5455810s for command "/Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/bin/igor/osx/x64/Igor" -j=8  -options="/tmp/GameMakerStudio2/GMS2TEMP/build.bff" -v -- Mac Run started at 02/09/2024 17:28:28
+[18:03:16:105(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://gms.yoyogames.com/ReleaseNotes.html
+[18:03:16:118(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[18:03:16:119(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (gms.yoyogames.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (gms.yoyogames.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:119(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:120(5c81)] Inner exception: 
+[18:03:16:120(5c81)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[18:03:16:120(5c81)] Inner exception: 
+[18:03:16:120(5c81)] nodename nor servname provided, or not known (gms.yoyogames.com:443)
+[18:03:16:128(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://www.google.com
+[18:03:16:129(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (www.google.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (www.google.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:129(5c81)] Inner exception: 
+[18:03:16:130(5c81)] nodename nor servname provided, or not known (www.google.com:443)
+[18:03:16:136(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[18:03:16:138(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:138(5c81)] Inner exception: 
+[18:03:16:138(5c81)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[18:03:16:138(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[18:03:16:139(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:139(5c81)] Inner exception: 
+[18:03:16:140(5c81)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[18:03:16:540(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[18:03:16:542(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:542(5c81)] Inner exception: 
+[18:03:16:542(5c81)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[18:03:16:549(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://www.google.com
+[18:03:16:549(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[18:03:16:550(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (www.google.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (www.google.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:550(5c81)] Inner exception: 
+[18:03:16:550(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:551(5c81)] Inner exception: 
+[18:03:16:551(5c81)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[18:03:16:551(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://gms.yoyogames.com/ReleaseNotes.html
+[18:03:16:552(5c81)] nodename nor servname provided, or not known (www.google.com:443)
+[18:03:16:552(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (gms.yoyogames.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (gms.yoyogames.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:552(5c81)] Inner exception: 
+[18:03:16:554(5c81)] nodename nor servname provided, or not known (gms.yoyogames.com:443)
+[18:03:16:560(5c81)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[18:03:16:562(5c81)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[18:03:16:562(5c81)] Inner exception: 
+[18:03:16:562(5c81)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[18:47:48:674(5c81)] Audio Device Connected: Acer K272HL
+[18:47:48:715(5c81)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[18:47:48:716(5c81)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[18:47:48:716(5c81)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[18:47:48:716(5c81)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[18:47:57:832(5c81)] IDE Exiting: False:False:False:0
+[18:47:57:952(5c81)] Saving project layout to: /Users/sebastian/.config/GameMakerStudio2/unknownUser_unknownUserID/Layouts/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0.xml
+[18:47:58:729(5c81)] Searching for processes named 'Mac_Runner'
+[18:47:58:860(5c81)] Searching for processes named 'Runner'
+[18:47:58:951(5c81)] Searching for processes named 'runner'
+[18:47:59:41(5c81)] Searching for processes named 'WinUAPRunner'
+[18:47:59:133(5c81)] Searching for processes named 'GameMakerPlayer'
+[18:47:59:329(5c81)] Searching for processes named 'ffmpeg'
+[18:47:59:481(5c81)] Searching for processes named 'GMDebug'
+[18:47:59:572(5c81)] Searching for processes named 'GMWebServer'
+[18:47:59:661(5c81)] Searching for processes named 'GMAssetCompiler'
+[18:47:59:749(5c81)] Searching for processes named 'Igor'
+[18:47:59:841(5c81)] Searching for processes named 'adb'
+[18:47:59:928(5c81)] Searching for processes named 'yypc'
+[18:48:00:29(5c81)] Searching for processes named 'LegendOfSoma-Patch-1.0'
+[18:48:00:163(5c81)] Deleting temp directory /tmp/GameMakerStudio2/GMS2TEMP
+[18:48:00:247(5c81)] Discarding document ${project_dir}/scripts/saveFunctions/saveFunctions.gml
+[18:48:00:267(5c81)] Discarding document ${project_dir}/objects/oMusicManager/Create_0.gml
+[18:48:00:268(5c81)] Discarding document ${project_dir}/objects/oMusicManager/Step_0.gml
+[18:48:00:272(5c81)] Discarding document Output
+[18:48:00:277(5c81)] Error: trying to deactivate an unregistered module.(type of YoYoStudio.Plugins.MiscPlugins.OutputWindows.DefaultOutputWindow)
+[18:48:00:278(5c81)] Discarding document SearchResults
+[18:48:00:285(5c81)] Error: trying to deactivate an unregistered module.(type of YoYoStudio.Plugins.MiscPlugins.OutputWindows.SearchOutputWindow)
+[18:48:00:306(5c81)] Error: trying to deactivate an unregistered module.(type of YoYoStudio.Plugins.MiscPlugins.Inspector.InspectorModule)
+[18:48:00:319(5c81)] Error: trying to deactivate an unregistered module.(type of YoYoStudio.Plugins.AssetBrowser.AssetBrowserModule)
+[12:52:50:397(6447)] **************************************  02/12/2024  **************************************
+[12:52:50:418(6447)] Logger.Initialise
+[12:52:50:418(6447)] Skin: /Applications/GameMaker.app/Contents/MacOS/x86_64/GUI/Skins/Dark
+[12:52:50:419(6447)] GameMaker, Version=2023.11.1.129, Culture=neutral, PublicKeyToken=null
+[12:52:50:419(6447)] Initialise()
+[12:52:50:456(6447)] Command line arguments:
+[12:52:50:475(6447)] ProcessId:9092
+[12:52:50:479(6447)] SteamAPI Init returned : False
+[12:52:50:550(6447)] Loading proxy settings
+[12:52:52:262(6447)] Discovered system fonts via kernel in 598ms
+[12:52:52:275(6447)] Initialise(0.0)
+[12:52:52:522(6447)] Warning loading hotkeys from file ./default_hotkeys.json - the following hotkeys had multiple entries:
+[12:52:52:523(6447)] 	- 'Select Rotate Tool'
+[12:52:52:523(6447)] 	Duplicate entries will not be loaded
+[12:52:52:829(6447)] File exception 'Could not find a part of the path '/Applications/GameMaker.app/Contents/MacOS/x86_64/user_cache_directory/Styles'.'
+[12:52:52:890(6447)] Failed to load layout 'OperaGXDeviceEditor' from file '/Applications/GameMaker.app/Contents/MacOS/x86_64/GUI/Skins/Dark/Layouts/build_platform_device_editor.xml' as it has a duplicate name
+[12:52:52:903(6447)] Failed to load layout 'ObjectEditorEvents' from file '/Applications/GameMaker.app/Contents/MacOS/x86_64/GUI/Skins/Dark/Layouts/object_editor_layouts.xml' as it has a duplicate name
+[12:52:53:7(6447)] Layout Manager: Attempting to register 'YoYoStudio.GUI.Gadgets.Inspector.MultiSelectListBox+ItemGadget' from assembly 'IDE'. The gadget name 'ItemGadget' is already in use, this may be caused by conflicting plugins
+[12:52:53:15(6447)] Initialise(0.1)
+[12:52:53:151(6447)] Initialise(0.2)
+[12:52:53:153(6447)] Initialise(1)
+[12:52:53:251(6447)] Initialise(1.1)
+[12:52:53:252(6447)] Initialise(2)
+[12:52:53:572(6447)] Font that isn't scalable is invalid: /System/Library/Fonts/Apple Color Emoji.ttc
+[12:52:53:728(6447)] Font that isn't scalable is invalid: /System/Library/Fonts/Supplemental/NISC18030.ttf
+[12:52:53:954(6447)] Discovered system fonts via filesystem in 696ms
+[12:52:54:62(6447)] Discovered 656 fonts in 102ms.
+[12:52:54:64(6447)] Using 0.014688492mb in font ram cache
+[12:52:54:203(6447)] Initialise(3)
+[12:52:54:206(6447)] Initialise(4)
+[12:52:54:301(6447)] FNA-Info: FNA3D Driver: OpenGL
+[12:52:54:301(6447)] FNA-Info: OpenGL Renderer: Intel(R) Iris(TM) Plus Graphics 645
+[12:52:54:302(6447)] FNA-Info: OpenGL Driver: 2.1 INTEL-22.1.29
+[12:52:54:302(6447)] FNA-Info: OpenGL Vendor: Intel Inc.
+[12:52:54:304(6447)] FNA-Info: MojoShader Profile: glsl120
+[12:52:54:313(6447)] Initialise(4.1)
+[12:52:54:314(6447)] Initialise(4.2)
+[12:52:54:314(6447)] Initialise(4.3)
+[12:52:54:401(6447)] Initialise(4.4.1)
+[12:52:54:408(6447)] Initialise(4.4.2)
+[12:52:54:430(6447)] Initialise(4.5)
+[12:52:54:430(6447)] Check (1)
+[12:52:54:433(6447)] Check (2)
+[12:52:54:856(6447)] Initialise(4.6)
+[12:52:54:919(6447)] Initialise(4.7)
+[12:52:54:922(6447)] Initialise(4.8)
+[12:52:54:924(6447)] Initialise(4.9)
+[12:52:54:930(6447)] Initialise(4.10)
+[12:52:54:971(6447)] Initialise(4.11)
+[12:52:54:979(6447)] Initialise(4.12)
+[12:52:55:23(6447)] Initialise(5)
+[12:52:55:24(6447)] Initialise(6)
+[12:52:55:24(6447)] Initialise(7)
+[12:52:55:25(6447)] Initialise(7.1)
+[12:52:55:25(6447)] Initialise(8)
+[12:52:55:26(6447)] Initialise(9)
+[12:52:55:26(6447)] Initialise(10)
+[12:52:55:301(6447)] LoadingState: AwaitNetworkConnectivityCheck
+[12:52:55:303(6447)] Initialise(11)
+[12:52:55:307(6447)] Initialise(11.5)
+[12:52:55:307(6447)] Initialise(12)
+[12:52:55:435(6447)] Audio Device Connected: Acer K272HL
+[12:52:55:436(6447)] Audio Device Connected: MacBook Pro Speakers
+[12:52:55:550(6447)] Checking network....
+[12:52:56:133(6447)] LoadingState: StartUp
+[12:52:56:158(6447)] LoadingState: Languages
+[12:52:56:480(6447)] Startup Language:
+[12:52:56:480(6447)] LoadingState: BeginUserLogin
+[12:52:56:509(6447)] LoadingState: UserLogin
+[12:52:56:751(6447)] Current assembly revision is 2023.11.1.129
+[12:52:56:764(6447)] Update found - got 13 items
+[12:52:56:764(6447)] Latest revision 2023.11.1.129 found
+[12:52:56:765(6447)] We do NOT need to update
+[12:52:57:18(6447)] LoadingState: Preferences
+[12:52:57:57(6447)] Creating temp directory /tmp/GameMakerStudio2/GMS2TEMP
+[12:52:57:78(6447)] LoadingState: CheckingRSS
+[12:52:57:395(6447)] LoadingState: DownloadManualRSS
+[12:52:57:422(6447)] Download File /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/ab01b2a6update-manual.rss to https://gms.yoyogames.com/update-manual.rss
+[12:52:57:425(6447)] LoadingState: InitDnD
+[12:52:57:444(6447)] DnD: Installing gadgets from IDE
+[12:52:57:523(6447)] Discarding document 459a9911-5c25-44c1-ae32-89d07b7e7975.gml
+[12:52:57:528(6447)] DnD: Gadget name conflict on YoYo Games.DnD_CodeInput, change gadget name.
+[12:52:57:529(6447)] DnD: Gadget name conflict on YoYo Games.DnD_CodeInput, change gadget name.
+[12:52:57:682(6447)] LoadingState: PluginGUIResources
+[12:52:57:728(6447)] LoadingState: Plugins
+[12:52:58:235(6447)] LoadingState: Devices
+[12:52:58:313(6447)] Splash screen: loading devices...
+[12:52:58:313(6447)] ...initialising device manager
+[12:52:58:316(6447)] Device Manager Load Failed: file not found
+[12:52:58:316(6447)] ...moving to welcome page end
+[12:52:58:316(6447)] LoadingState: CheckLaunchProject
+[12:52:58:316(6447)] ...done!
+[12:52:58:368(6447)] LoadingState: VerifySkinning
+[12:52:58:431(6447)] LoadingState: End
+[12:52:58:465(6447)] Adding fnames: /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/operagx/fnames
+[12:53:00:318(6447)] MQTT - Started server: mqtts://unknownUser:756E6B6E6F776E55736572@10.0.1.128:9001?thumbprint=04D2D5BA9DE94EA578044F103FA4197587B0EF3B&thumprint256=AD8810506355E4336333BA95BBD858761FEEFEC8E3C23D0B95F919715D692D9B&topic=GameMaker
+[12:53:00:656(6447)] envDumpName:
+[12:53:00:656(6447)] CrashReporter:Dump directory: /Users/Shared/GameMakerStudio2/Dumps
+[12:53:00:657(6447)] ####################################
+[12:53:00:657(6447)] Break in WriteBinary (FileSystem_Local_NonAsync:618)
+[12:53:00:657(6447)] Reason: Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/dump_pid.new'. ( /Users/Shared/GameMakerStudio2/Dumps/dump_pid )
+[12:53:00:657(6447)] ####################################
+[12:53:00:657(6447)] File exception 'Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/dump_pid.new'.'
+[12:53:00:657(6447)] ####################################
+[12:53:00:657(6447)] Break in WriteBinary (FileSystem_Local_NonAsync:618)
+[12:53:00:657(6447)] Reason: Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/timestamp.new'. ( /Users/Shared/GameMakerStudio2/Dumps/timestamp )
+[12:53:00:657(6447)] ####################################
+[12:53:00:658(6447)] File exception 'Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps/timestamp.new'.'
+[12:53:00:658(6447)] File exception 'Could not find a part of the path '/Users/Shared/GameMakerStudio2/Dumps'.'
+[12:53:00:669(6447)] MQTT - Subscribed to GameMaker/event/# with GameMaker/event
+[12:53:00:669(6447)] MQTT - Subscribed to GameMaker/GameMaker/logs with GameMaker/GameMaker/logs
+[12:53:00:669(6447)] MQTT - Subscribed to GameMaker/goodbye with GameMaker/goodbye
+[12:53:00:669(6447)] MQTT - Subscribed to GameMaker/hello with GameMaker/hello
+[12:53:00:669(6447)] MQTT - Subscribed to GameMaker/all/startGame with GameMaker/all/startGame
+[12:53:00:711(6447)] StartScreen Init: Display Size w:2880 h:1694 dpiScale:2.3645833
+[12:53:01:308(6447)] MQTT - Received msg: GameMaker/event/start_ide/client_version = 2023.11.1.129
+[12:53:01:309(6447)] MQTT - Received msg: GameMaker/event/start_ide/os_type = mac
+[12:53:01:309(6447)] MQTT - Received msg: GameMaker/event/start_ide/num_cpu = 8
+[12:53:01:309(6447)] MQTT - Received msg: GameMaker/event/start_ide/cpu_type = Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
+[12:53:01:309(6447)] MQTT - Received msg: GameMaker/event/start_ide/language = en
+[12:53:01:309(6447)] MQTT - Received msg: GameMaker/event/start_ide/country = US
+[12:53:01:309(6447)] MQTT - Received msg: GameMaker/event/start_ide/culture = en-US
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/gfx_renderer = OpenGL, 2.1 INTEL-22.1.29, Intel Inc., Intel(R) Iris(TM) Plus Graphics 645
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/laptop = 1
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/laptop_mode = True
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/laptop_desktop_enable = False
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/seat_type = default
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/is_free = 1
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/is_internal = 0
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/platform_os_version = 14.2.1
+[12:53:01:310(6447)] MQTT - Received msg: GameMaker/event/start_ide/beta_optin = False
+[12:53:01:311(6447)] MQTT - Received msg: GameMaker/event/start_ide/splash = 3
+[12:53:01:311(6447)] MQTT - Received msg: GameMaker/event/start_ide/telemetry = 77
+[12:53:01:311(6447)] MQTT - Received msg: GameMaker/event/start_ide/telemetry2 = EAAAAG8cbpXYAuy7qwiCm+iGrs96wdIEdhhZ3dxkXC7+s85l
+[12:53:01:311(6447)] MQTT - Received msg: GameMaker/event/start_ide/data1 = operagx,operagx.build_module,test
+[12:53:01:311(6447)] MQTT - Received msg: GameMaker/event/start_ide/region = 244
+[12:53:01:311(6447)] MQTT - Received msg: GameMaker/event/start_ide/ide_language = English / English
+[12:53:01:311(6447)] MQTT - Received msg: GameMaker/event/start_ide/ide_font = Open Sans
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/manual_language = English / English
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/online_manual = False
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/ide_skin = Dark
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/is_steam = False
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/quick_access = True
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/feather_enabled = True
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/rtl_enabled = False
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/script_language = None
+[12:53:01:312(6447)] MQTT - Received msg: GameMaker/event/start_ide/fullscreen_script = False
+[12:53:01:313(6447)] MQTT - Received msg: GameMaker/event/start_ide/fullscreen_shader = False
+[12:53:01:313(6447)] MQTT - Received msg: GameMaker/event/start_ide/fullscreen_event = False
+[12:53:01:313(6447)] MQTT - Received msg: GameMaker/event/start_ide/gmpm = 
+[12:53:01:313(6447)] MQTT - Received msg: GameMaker/event/start_ide/total_vm = 2
+[12:53:01:313(6447)] MQTT - Received msg: GameMaker/event/start_ide/total_yyc = 0
+[12:53:01:313(6447)] MQTT - Received msg: GameMaker/event/start_ide/total_debug = 0
+[12:53:01:313(6447)] MQTT - Received msg: GameMaker/event/start_ide/session_time = 20
+[12:53:01:314(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_windows = 0
+[12:53:01:314(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_mac = 2
+[12:53:01:314(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_linux = 0
+[12:53:01:314(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_html5 = 0
+[12:53:01:314(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_android = 0
+[12:53:01:314(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_ios = 0
+[12:53:01:314(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_tvos = 0
+[12:53:01:315(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_ps4 = 0
+[12:53:01:315(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_ps5 = 0
+[12:53:01:315(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_xboxseriesxs = 0
+[12:53:01:315(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_switch = 0
+[12:53:01:315(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_operagx = 0
+[12:53:01:315(6447)] MQTT - Received msg: GameMaker/event/start_ide/run_cronus = 0
+[12:53:01:315(6447)] MQTT - Received msg: GameMaker/event/start_ide/editor_object_editor = 2
+[12:53:01:336(6447)] ProcessCrashDumps failed to find files
+[12:53:01:504(6447)] ParticleEditor: registered 11 GMPresets
+[12:53:03:435(6447)] Setting ProjectFullFilePathMacro to '/Users/sebastian/Desktop/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0.yyp'
+[12:53:03:435(6447)] Setting ProjectDirMacro to '/Users/sebastian/Desktop/LegendOfSoma-Patch-1.0'
+[12:53:03:435(6447)] Setting ProjectNameMacro to 'LegendOfSoma-Patch-1.0'
+[12:53:03:442(6447)] Loading project layout from: /Users/sebastian/.config/GameMakerStudio2/unknownUser_unknownUserID/Layouts/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0/LegendOfSoma-Patch-1.0.xml
+[12:53:05:878(6447)] MQTT - Received msg: GameMaker/event/Run/platform = mac
+[12:53:05:969(6447)] starting /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/bin/igor/osx/x64/Igor -j=8  -options="/tmp/GameMakerStudio2/GMS2TEMP/build.bff" -v -- Mac Run
+[12:53:44:917(6447)] elapsed time 00:00:38.9480120s for command "/Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2023.11.1.160/bin/igor/osx/x64/Igor" -j=8  -options="/tmp/GameMakerStudio2/GMS2TEMP/build.bff" -v -- Mac Run started at 02/12/2024 12:53:05
+[13:23:31:272(6447)] Audio Device Disconnected: Acer K272HL
+[13:23:31:317(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:23:31:317(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:23:43:325(6447)] Audio Device Connected: Acer K272HL (2)
+[13:23:43:328(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:23:43:329(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:23:43:330(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:23:43:330(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:01:682(6447)] Audio Device Disconnected: Acer K272HL
+[13:24:01:683(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:01:683(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:01:683(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:01:684(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:16:871(6447)] Audio Device Connected: Acer K272HL (3)
+[13:24:16:873(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:16:873(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:16:874(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:16:874(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:16:874(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[13:24:16:874(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[20:29:23:331(6447)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[20:29:23:332(6447)] InternalCheckForInternetConnection :: Unable to reach site https://www.google.com
+[20:29:23:334(6447)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[20:29:23:335(6447)] InternalCheckForInternetConnection :: Unable to reach site https://gms.yoyogames.com/ReleaseNotes.html
+[20:29:23:343(6447)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[20:29:23:376(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:377(6447)] Inner exception: 
+[20:29:23:377(6447)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[20:29:23:377(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (gms.yoyogames.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (gms.yoyogames.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:377(6447)] Inner exception: 
+[20:29:23:377(6447)] nodename nor servname provided, or not known (gms.yoyogames.com:443)
+[20:29:23:377(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (www.google.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (www.google.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:377(6447)] Inner exception: 
+[20:29:23:378(6447)] nodename nor servname provided, or not known (www.google.com:443)
+[20:29:23:378(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:378(6447)] Inner exception: 
+[20:29:23:378(6447)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[20:29:23:378(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:378(6447)] Inner exception: 
+[20:29:23:378(6447)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[20:29:23:604(6447)] InternalCheckForInternetConnection :: Unable to reach site https://gms.yoyogames.com/ReleaseNotes.html
+[20:29:23:605(6447)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[20:29:23:610(6447)] InternalCheckForInternetConnection :: Unable to reach site https://www.google.com
+[20:29:23:611(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (gms.yoyogames.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (gms.yoyogames.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:611(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:611(6447)] Inner exception: 
+[20:29:23:611(6447)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[20:29:23:612(6447)] Inner exception: 
+[20:29:23:612(6447)] nodename nor servname provided, or not known (gms.yoyogames.com:443)
+[20:29:23:612(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (www.google.com:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (www.google.com:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:613(6447)] Inner exception: 
+[20:29:23:613(6447)] nodename nor servname provided, or not known (www.google.com:443)
+[20:29:23:614(6447)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[20:29:23:616(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:616(6447)] Inner exception: 
+[20:29:23:616(6447)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[20:29:23:620(6447)] InternalCheckForInternetConnection :: Unable to reach site https://api.gamemaker.io/api/health-check
+[20:29:23:621(6447)] System.AggregateException: One or more errors occurred. (nodename nor servname provided, or not known (api.gamemaker.io:443))
+ ---> System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (api.gamemaker.io:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at YoYoStudio.Core.Utils.HttpUtil.<>c__DisplayClass52_0.<InternalCheckForInternetConnection>b__1(String s, ParallelLoopState _state)
+[20:29:23:621(6447)] Inner exception: 
+[20:29:23:622(6447)] nodename nor servname provided, or not known (api.gamemaker.io:443)
+[01:29:27:772(6447)] Audio Device Connected: Crusher Evo
+[01:29:27:784(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[01:29:27:784(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[01:29:27:785(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[01:29:27:786(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[01:29:27:787(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[01:29:27:787(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[01:29:27:787(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[01:29:27:787(6447)] Error: Preference 'machine.General Settings.DefaultAudioDevice'not pre-set, returning a default: Cannot convert type 'Core.CoreOS.Audio.SDL2AudioDevice' to 'string'
+[16:24:06:456(6447)] Setting ProjectFullFilePathMacro to '/Users/sebastian/GameMakerStudio2/DungeonsOfAria/DungeonsOfAria.yyp'
+[16:24:06:458(6447)] Setting ProjectDirMacro to '/Users/sebastian/GameMakerStudio2/DungeonsOfAria'
+[16:24:06:458(6447)] Setting ProjectNameMacro to 'DungeonsOfAria'
