@@ -52,8 +52,8 @@ if room != rm_house && room != rm_titleScreen
 		var _lvlString = "Lv: " + string(playerLevel);
 		var _xpString = "XP: " + string(playerXP) + "/" + string(playerXpToLevel);
 
-		draw_text_transformed( _camX + 5, _camY + 30, _lvlString, .5, .5, 0 );
-		draw_text_transformed( _camX + 35, _camY + 30, _xpString, .5 , .5, 0 );
+		draw_text_transformed( _camX + 15, _camY + 30, _lvlString, .5, .5, 0 );
+		draw_text_transformed( _camX + 70, _camY + 30, _xpString, .5 , .5, 0 );
 	
 		
 		// draw the player's coin pouch 
@@ -62,5 +62,5 @@ if room != rm_house && room != rm_titleScreen
 		draw_sprite( sCoin, 0, _camX + _coinPaddingX, _camY + _coinPaddingY );
 		
 		var _coinAmount = "GP: " + string(player_coinPouch);
-		draw_text_transformed( _camX + 23, _camY + 180, _coinAmount, .5, .5, 0 );
+		draw_text_transformed( _camX + 35, _camY + 180, _coinAmount, .5, .5, 0 );
 }

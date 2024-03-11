@@ -1,4 +1,4 @@
-target_x = 334;
-target_y = 428;
+target_x = 336;
+target_y = 448;
 
 target_rm = rm_path;

@@ -1,4 +1,4 @@
-title = "Legend Of Soma";
+title = "Dungeons Of Aria";
 
 // viewport properties
 width = 288;

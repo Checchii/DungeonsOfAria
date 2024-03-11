@@ -16,7 +16,8 @@ global.PlayerSpellBook = array_create(0);
 // the spells
 global.SpellList = {
 	
-	dark_orb : new create_spell(oDarkOrb, 0, 26, 20, 1),
+	dark_orb : new create_spell(oDarkOrb, 0, 26, 20, 3),
+	dark_spell : new create_spell(oDarkSpell, 0, 35, 30, 5),
 	
 	
 }

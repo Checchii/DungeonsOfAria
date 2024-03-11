@@ -10,6 +10,8 @@ if instance_exists( bulletInst ) && bulletInst.state == 0
 	/// might of just fixed it check back in a few
 
 // xpInst = instance_create_depth(x , y, depth, oExpDrop);
-oPlayer.player_exp += experience_points;
+if place_meeting(x, y, oDarkOrb) && hp <=0{
+	oPlayer.player_exp += experience_points;
+}
 
 instance_create_depth(x, y, 0, dropped_loot);

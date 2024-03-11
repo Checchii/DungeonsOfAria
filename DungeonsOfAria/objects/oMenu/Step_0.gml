@@ -18,7 +18,7 @@ if accept_key
 	
 	switch(menu_level)
 	{
-		// main menu
+		// main menu level 0
 		case 0:
 			switch(pos)
 			{
@@ -26,42 +26,84 @@ if accept_key
 				case 0: room_goto_next(); break;
 	
 				// go to settings
-				case 1: menu_level = 1; break;
+				//case 1: menu_level = 1; break;
 	
 				// quit the game
-				case 2: game_end(); break;
+				case 1: game_end(); break;
 			}
 
-		// settings menu
+		// settings menu level 1
 		case 1:
 			switch(pos)
 			{
 				// Volume	
-				case 0:
-				
-				break;
+				case 0: menu_level = 2; break;
 				
 				// Controls
-				case 1:
-				
-				break;
+				case 1: menu_level = 3; break; // random bug here ???
 				
 				// Brightness
-				case 2:
+				case 2: menu_level = 4; break;
 				
-				break;
+				// Controls
+				case 3: menu_level = 3; break;
 				
-				// back
-				case 3:
-					menu_level = 0;
-				break;
+				// Back
+				case 4: menu_level = 0; break;
 				
 			}
 			
-			// set position back
-			if _startMenuLevel != menu_level { pos = 0; };
 			
-			// correct option length
-			op_length = array_length(option[menu_level]);
+			// volume menu level 2
+			case 2:
+				switch(pos)
+				{
+					// adjust volume scroll bar
+					case 0:
+				
+					break;
+				
+					// go back to settings menu
+					case 1:
+						menu_level = 1;
+					break;
+				}
+			
+			// controls menu level 3
+			case 3:
+				switch(pos)
+				{
+					// adjust controls via user input
+					case 0:
+				
+					break;
+				
+					// go back to settings menu
+					case 1:
+						menu_level = 1;
+					break;
+				}
+		
+			// brightness menu level 4
+			case 4:
+				switch(pos)
+				{
+					// adjust brightness scroll bar
+					case 0:
+				
+					break;
+				
+					// go back to settings menu
+					case 1:
+						menu_level = 1;
+					break;
+				}
+			
+			
+				// set position back
+				if _startMenuLevel != menu_level { pos = 0; };
+			
+				// correct option length
+				op_length = array_length(option[menu_level]);
 	}
 }

@@ -8,5 +8,5 @@ alpha = clamp( alpha, 0, 1);
  // restart game
  if restart_key && alpha >= 1
  {
-	 game_restart();
+	 room_goto(rm_house);
  }

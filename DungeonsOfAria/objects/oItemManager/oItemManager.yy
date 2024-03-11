@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "DungeonsOfAria",
-    "path": "DungeonsOfAria.yyp",
+    "name": "Game Control",
+    "path": "folders/Game Control.yy",
   },
   "parentObjectId": null,
   "persistent": false,

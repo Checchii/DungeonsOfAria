@@ -119,8 +119,8 @@
   "lineHeight": 46,
   "maintainGms1Font": false,
   "parent": {
-    "name": "DungeonsOfAria",
-    "path": "DungeonsOfAria.yyp",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "pointRounding": 0,
   "ranges": [

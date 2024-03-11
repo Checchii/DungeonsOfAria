@@ -190,7 +190,7 @@ function load_room()
 
 	
 	// get rid of default room editor instance
-	// then create new instances with all of the data previously saved 
+	// then create new instances with all of the data previously saved
 	if room == rm_dungeon1F
 	{
 		// slime npc

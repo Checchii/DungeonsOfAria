@@ -57,6 +57,7 @@ face = DOWN;
 
 	// add spell to players spellbook
 	array_push( global.PlayerSpellBook, global.SpellList.dark_orb);
+	array_push(global.PlayerSpellBook, global.SpellList.dark_spell);
 	
 	selectedSpell = 0;
 	currentSpell = global.PlayerSpellBook[selectedSpell];
