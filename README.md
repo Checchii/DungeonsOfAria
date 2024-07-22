@@ -15,7 +15,7 @@
 ## How To Play
 
 1. Navigate to my portfolio page at [https://www.sebastianchecchi.com](https://www.sebastianchecchi.com).
-2. In the projects section, click on the "Dungeons of Aria" and then click on the URL to access a private link to the game.
+2. In the projects section, toggle the "Dungeons of Aria" details and then click on the "Play Now" to access a private link to the game.
 
 ## Usage
 
