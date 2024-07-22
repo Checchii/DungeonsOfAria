@@ -1,5 +1,3 @@
-![Dungeons of Aria Title Screen](/Users/sebastian/Desktop/TitleScreen.png)
-
 # Dungeons of Aria
 
 **Dungeons of Aria** is an immersive fantasy role-playing game (RPG) set in the depths of a mysterious dungeon located in the land known as **Aria**. Players embark on an epic journey as they take on the role of a brave adventurer determined to explore the uncharted depths of this perilous labyrinth. The game's core premise revolves around exploration, combat, character progression, and interaction with various characters inhabiting the dungeon and the surrounding town. Only the bravest will learn what awaits them at the end.
